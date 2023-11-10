@@ -1,0 +1,48 @@
+.main{
+    background-color: rgb(235, 140, 17);
+    height: 800px;
+    width:100%;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+.main::-webkit-scrollbar { 
+    display: none;  
+    width: 0;
+    height: 0;
+}
+.box{
+background-color: grey;
+align-items: center;
+justify-content: center;
+height: 600px;
+margin-top: 5%;
+margin-left: 35%;
+margin-right: 35%;
+color:white;
+border-radius: 1rem;
+box-shadow: 0 8px 32px 0 black;
+font-family: monospace;
+padding-left:4%;
+font-size: 25px;
+font-weight: 500;
+padding-top: 2%;
+}
+.inp{
+    border-radius: .5rem;
+box-shadow: 0 8px 32px 0 black;
+font-family: monospace;
+height: 26px;
+width: 250px;
+margin-left: 1%;
+border:none;
+}
+.btn{
+    border-radius: 1rem;
+box-shadow: 0 8px 32px 0 black;
+font-family: monospace; 
+height: 35px;
+width: 35px;
+margin-left: 20px;
+font-weight: 500;
+font-size: 30x;
+}
